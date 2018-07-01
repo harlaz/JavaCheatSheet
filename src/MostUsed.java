@@ -29,7 +29,7 @@ public class MostUsed {
             //Same block as when reading a file
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             String line = br.readLine();
-            while( line != null )
+        while( line != null )
         {
             p(line);
             line = br.readLine();
